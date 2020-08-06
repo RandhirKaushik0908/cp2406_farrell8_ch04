@@ -10,10 +10,7 @@ public class TestMethodWithNestedBlocks
       System.out.println("In outer block, aNumber is "  + aNumber);
       {
          int anotherNumber = 512;
-         System.out.println
-            ("In inner block, aNumber is " +
-            aNumber + " and another number is " +
-            anotherNumber);
+         System.out.println("In inner block, aNumber is " + aNumber + " and another number is " + anotherNumber);
       }
       System.out.println("In outer block, aNumber is "  + aNumber);
    }

@@ -12,15 +12,12 @@ public class OverridingVariable
    public static void firstMethod()
    {
       int aNumber = 77;
-      System.out.println("In firstMethod(), aNumber is "
-         + aNumber);
+      System.out.println("In firstMethod(), aNumber is " + aNumber);
    }
    public static void secondMethod(int aNumber)
    {
-      System.out.println("In secondMethod(), at first " +
-         "aNumber is " + aNumber);
+      System.out.println("In secondMethod(), at first " + "aNumber is " + aNumber);
       aNumber = 862;
-      System.out.println("In secondMethod(), after an assignment " +
-         "aNumber is " + aNumber);
+      System.out.println("In secondMethod(), after an assignment " + "aNumber is " + aNumber);
    }
 }

@@ -11,8 +11,6 @@ public class BaseballPlayer
    }
    public void showPlayer()
    {
-      System.out.println("Player #" + number +
-        " batting average is " + battingAverage +
-        " There are " + count + " players");
+      System.out.println("Player #" + number + " batting average is " + battingAverage + " There are " + count + " players");
    }
 }

@@ -6,12 +6,11 @@ public class Student
 
    public Student(int stuNum, double gpa)
    {
-     stuNum = stuNum;
-     gpa = gpa;
+     this.stuNum = stuNum;
+     this.gpa = gpa;
    }
    public void showStudent()
    {
-     System.out.println("Student #" + stuNum +
-         " gpa is " + gpa);
+     System.out.println("Student #" + stuNum + " gpa is " + gpa);
    }
 }
